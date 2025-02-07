@@ -85,6 +85,11 @@ php artisan config:clear
 php artisan route:clear
 ```
 
+7. Correr el servidor
+```bash
+php artisan serve
+```
+
 **¡Y listo!** Ahora puedes empezar a desarrollar.
 
 ## Uso
