@@ -78,6 +78,13 @@ php artisan key:generate
 php artisan migrate
 ```
 
+6. Configuraciones para limpiar.
+```bash
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+```
+
 **¡Y listo!** Ahora puedes empezar a desarrollar.
 
 ## Uso
