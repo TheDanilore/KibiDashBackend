@@ -12,6 +12,7 @@ El proyecto se ha desarrollado utilizando las siguientes tecnologías:
 - **PHP 8.2.x**
 - **Laravel 11.x**
 - **Composer**
+- **7-Zip**
 - **MySQL** (Base de datos)
 - **Docker Compose** (Entorno de contenedores)
 - **MailHog** (Gestor de correos para desarrollo)
