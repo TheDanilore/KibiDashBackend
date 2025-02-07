@@ -11,6 +11,7 @@ El proyecto se ha desarrollado utilizando las siguientes tecnologías:
 
 - **PHP 8.2.x**
 - **Laravel 11.x**
+- **Composer**
 - **MySQL** (Base de datos)
 - **Docker Compose** (Entorno de contenedores)
 - **MailHog** (Gestor de correos para desarrollo)
@@ -22,7 +23,7 @@ El proyecto se ha desarrollado utilizando las siguientes tecnologías:
 El proyecto cuenta con una implementación de Docker Compose para facilitar la configuración del entorno de desarrollo.
 
 > ⚠️ Si no estás familiarizado con Docker, puedes optar por otra configuración para preparar tu entorno. Si decides
-> hacerlo, omite los pasos 1 y 2.
+> hacerlo, omite los pasos 1.
 
 Instrucciones para iniciar el proyecto
 
@@ -43,6 +44,20 @@ cp .env.example .env
 ```bash
 composer install
 ```
+En caso salga este error:
+![image](https://github.com/user-attachments/assets/a655ea1c-de16-46ca-9f62-db22ef835879)
+
+Acceder a esta ruta: C:\xampp\php\php.ini
+
+Y borrar el ;
+![image](https://github.com/user-attachments/assets/3541f117-83b2-46a0-9cd1-4a703ff3d08b)
+
+Si sale este error:
+![image](https://github.com/user-attachments/assets/1bb42e17-3541-4260-bd37-2ec12a9d6d95)
+
+Activar esto:
+![image](https://github.com/user-attachments/assets/24c4a6bb-d6a7-4ea9-a588-f37c05f0c926)
+
 
 4. Generar una clave para la aplicación:
 
