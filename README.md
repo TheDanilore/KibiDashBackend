@@ -45,17 +45,23 @@ cp .env.example .env
 composer install
 ```
 En caso salga este error:
+
 ![image](https://github.com/user-attachments/assets/a655ea1c-de16-46ca-9f62-db22ef835879)
 
 Acceder a esta ruta: C:\xampp\php\php.ini
 
 Y borrar el ; :
+
 ![image](https://github.com/user-attachments/assets/3541f117-83b2-46a0-9cd1-4a703ff3d08b)
 
 Si sale este error:
+
 ![image](https://github.com/user-attachments/assets/1bb42e17-3541-4260-bd37-2ec12a9d6d95)
 
+
+
 Activar esto:
+
 ![image](https://github.com/user-attachments/assets/24c4a6bb-d6a7-4ea9-a588-f37c05f0c926)
 
 
