@@ -49,7 +49,7 @@ En caso salga este error:
 
 Acceder a esta ruta: C:\xampp\php\php.ini
 
-Y borrar el ;
+Y borrar el ; :
 ![image](https://github.com/user-attachments/assets/3541f117-83b2-46a0-9cd1-4a703ff3d08b)
 
 Si sale este error:
